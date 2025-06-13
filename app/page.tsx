@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { RiskForm } from "./components/risk-form"
-import { RiskCard } from "./components/risk-card"
-import { RiskMatrix } from "./components/risk-matrix"
-import { RiskFilters } from "./components/risk-filters"
-import type { Risk } from "./types/risk"
+import { RiskForm } from "@/components/risk-form"
+import { RiskCard } from "@/components/risk-card"
+import { RiskMatrix } from "@/components/risk-matrix"
+import { RiskFilters } from "@/components/risk-filters"
+import type { Risk } from "@/types/risk"
 
 const initialRisks: Risk[] = [
   {
